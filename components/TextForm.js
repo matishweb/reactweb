@@ -9,6 +9,7 @@ export default function TextForm(props) {
 
     const handleLowclick =()=>{
         console.log('Downclicked');
+        console.log('Downclicked2');
         let newTextlow=text.toLowerCase();
         setText(newTextlow);
     }
